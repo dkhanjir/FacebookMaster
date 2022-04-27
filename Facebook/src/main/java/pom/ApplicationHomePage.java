@@ -36,6 +36,8 @@ public class ApplicationHomePage {
 	@FindBy(xpath="//span[text()='Log Out']")
 	private WebElement logOut;
 	
+	@FindBy(xpath="//span[text()='Log Out']")
+	private WebElement logOut1;
 	
 	public ApplicationHomePage(WebDriver driver)
 	{
