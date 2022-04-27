@@ -12,8 +12,7 @@ public class ApplicationHeaderPage {
 	@FindBy(xpath="//div[@aria-label='Account']")
 	private WebElement account;
 	
-	@FindBy(xpath="//div[@aria-label='Account']")
-	private WebElement account1;
+
 	
 
 	public ApplicationHeaderPage(WebDriver driver)
